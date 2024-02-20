@@ -32,7 +32,7 @@ from omnisafe.algorithms.on_policy.early_terminated import PPOEarlyTerminated, T
 from omnisafe.algorithms.on_policy.first_order import CUP, FOCOPS
 from omnisafe.algorithms.on_policy.naive_lagrange import PDO, RCPO, PPOLag, TRPOLag
 from omnisafe.algorithms.on_policy.penalty_function import IPO, P3O
-from omnisafe.algorithms.on_policy.penalty_admm import ACPO, ATRPO, ACTRPO, AFOCOPS, CPRO, CFPS, CPPO, FCPO, F2CPO
+from omnisafe.algorithms.on_policy.penalty_admm import  FCPO, F2CPO
 from omnisafe.algorithms.on_policy.pid_lagrange import CPPOPID, TRPOPID
 from omnisafe.algorithms.on_policy.primal import OnCRPO
 from omnisafe.algorithms.on_policy.saute import PPOSaute, TRPOSaute

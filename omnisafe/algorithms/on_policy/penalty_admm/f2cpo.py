@@ -2,7 +2,6 @@ import torch
 from torch.distributions import Distribution
 from omnisafe.algorithms import registry
 from omnisafe.algorithms.on_policy.base.policy_gradient import PolicyGradient
-# from omnisafe.common.admm import ADMM5
 from omnisafe.utils import distributed
 from omnisafe.utils.math import conjugate_gradients
 from omnisafe.utils.tools import (

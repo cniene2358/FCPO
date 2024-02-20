@@ -2,7 +2,6 @@ import torch
 from torch.distributions import Distribution
 from omnisafe.algorithms import registry
 from omnisafe.algorithms.on_policy.base.ppo import PPO
-# from omnisafe.common.admm import ADMM4
 from omnisafe.utils import distributed
 from omnisafe.utils.math import conjugate_gradients
 from omnisafe.utils.tools import (
@@ -54,7 +53,6 @@ class ADMM(abc.ABC):
     def para_update(self, Jc: float) -> None:
         Lc = Jc - self._cost_limit
 
-        # 可以尝试注释下面赋值代码
         #self.Lc = Lc
 
         self.update_steps += 1

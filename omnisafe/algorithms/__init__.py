@@ -41,13 +41,7 @@ from omnisafe.algorithms.offline import BCQ, CCRR, CRR, VAEBC, BCQLag, COptiDICE
 
 # On-Policy Safe
 from omnisafe.algorithms.on_policy import (
-    ACPO,
-    ATRPO,
-    ACTRPO,
-    AFOCOPS,
-    CPRO,
-    CFPS,
-    CPPO,
+
     CPO,
     CPPOPID,
     CUP,
