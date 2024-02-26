@@ -108,7 +108,7 @@ defaults:
   admm_cfgs:
     rho: 0.01
     xi_lr: 0.1
-    lambda_lr: 0.00002
+    lambda_lr: 0.001
     # Tolerance of constraint violation
     cost_limit: 25.0 # 50
     #lagrangian multiplier
